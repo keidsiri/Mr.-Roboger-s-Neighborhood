@@ -1,3 +1,4 @@
+//Business Logic
 function numArray(num) {
   let numArr = []; 
   for (let i = 0; i <= num; i++) {
@@ -26,37 +27,7 @@ function beMyNeighbor(num) {
   return outcome;
 }
 
-
-// function beMyNeighbor(num) {
-//   const array = numArray(num);
-//   console.log(array)
-//   let outcome = new Array;
-
-//   array.forEach(function(element) { 
-//     if ( array.includes(3)) {
-//       outcome.push("Won't you be my neighbor?");
-//     } else if ( array.includes(2)) {
-//       outcome.push("Boop!");
-//     } else if ( array.includes(1)) {
-//       outcome.push("Beep!");
-//     } else {
-//       outcome.push(element);
-//     }
-//   });
-//   return outcome;
-// }
-
-// beMyNeighbor(5)
+// UI logic
 
 
-// function numToString(input) {
-//   if (input === 3) {
-//     return "Won't you be my neighbor?"
-//   } else if (input === 2) {
-//     return "Boop!"
-//   } else if (input === 1) {
-//     return "Beep!"
-//   } else {
-//     return input;
-//   }
-// }
+
