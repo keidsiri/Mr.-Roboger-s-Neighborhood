@@ -1,8 +1,8 @@
 # Mr. Roboger's Neighborhood
 
-### A third project web application that take number from user and returns the rang of numbers from 0 to the user inputted number with substitutions from the conditions.
+##### A third project web application that take number from user and returns the rang of numbers from 0 to the user inputted number with substitutions from the conditions.
 
-### By _Kate Kiatsiri_
+##### By _Kate Kiatsiri_
 
 ## Technologies used
   1. HTML
@@ -72,6 +72,17 @@ Test: "It should detect the number 1 and return it with "Beep!"
 Code: const input = 1;
 numToString(input)
 Expected Output: "Beep!"
+
+Test: "It should detect the number 2 and return it with "Boop!"
+Code: const input = 2;
+numToString(input)
+Expected Output: "Boop!"
+
+Test: "It should detect the number 3 and return it with "Won't you be my neighbor?"
+Code: const input = 3;
+numToString(input)
+Expected Output: "Won't you be my neighbor?"
+
 
 
 

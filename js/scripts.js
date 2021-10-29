@@ -3,4 +3,11 @@ numArray = [];
 for ( let i = 0; i <= input; i++) {
   numArray.push(i)
 }
-numArray(input)
+
+const input = 1;
+numtoString = [];
+if ( input === "1") {
+  numToString.push('Boop!')
+}
+
+
