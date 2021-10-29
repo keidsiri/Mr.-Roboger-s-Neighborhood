@@ -94,7 +94,6 @@ numToString(input)
 Expected Output: "Won't you be my neighbor?"
 
 
-
 ##### Describe: beMyNeighbor() function
 
 Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.
@@ -105,7 +104,7 @@ Expected Output: "Won't you be my neighbor
 Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.
 Code: const input = 21;
 beMyNeighbor(input) 
-Expected Output: "Boop".
+Expected Output: "Boop".  
 
 Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.
 Code: const input = 32;

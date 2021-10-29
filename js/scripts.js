@@ -9,14 +9,22 @@ function numArray(num) {
 // now should loop the array on each ele then return words if it's 3,2,1 otherwise return that number
 
 function beMyNeighbor(num) {
-  const array = numArray(num);
+  const array = numArray(num).toString().split(",");
   const outcome = [];
   
-  array.forEach(function(num) {
-    if ( number.includes)
+  array.forEach(function(element) {
+    if ( element.includes("3")) {
+      outcome.push("Won't you be my neighbor?");
+    } else if (element.includes("2")) {
+      outcome.push("Boop!");
+    } else if (element.includes("1")) {
+      outcome.push("Beep!");
+    } else {
+      outcome.push(element);
+    }
   });
-
-
+  return outcome;
+}
 
 
 // function beMyNeighbor(num) {
@@ -24,7 +32,7 @@ function beMyNeighbor(num) {
 //   console.log(array)
 //   let outcome = new Array;
 
-//   array.forEach(function(element) {
+//   array.forEach(function(element) { 
 //     if ( array.includes(3)) {
 //       outcome.push("Won't you be my neighbor?");
 //     } else if ( array.includes(2)) {
