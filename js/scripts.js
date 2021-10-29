@@ -10,24 +10,8 @@ function numArray(num) {
 
 function beMyNeighbor(num) {
   const array = numArray(num);
-  let outcome = [];
+  const outcome = [];
 
-  for ( let i = 0; i < array.length; i++) {
-    if ( array.includes(3)) {
-      outcome.push("Won't you be my neighbor?");
-      break;
-    } else if ( array.includes(2)) {
-      outcome.push("Boop!");
-      break;
-    } else if ( array.includes(1)) {
-      outcome.push("Beep!");
-      break;
-    } else {
-      outcome.push(i)
-    }
-  }
-  return outcome;
-}
 
 
 
