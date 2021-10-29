@@ -32,7 +32,7 @@ first rule should apply unless the second rule does, same with second and third.
 * _No known issues_
 
 ## License
--[MIT](https://opensource.org/licenses/MIT)_
+[MIT](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 Kate Kiatsiri
 
@@ -60,61 +60,61 @@ _If you have any questions please feel free to [Contact me](mailto:keidsiri@gmai
 
 ##### Describe: numArray() function
 
-Test: "It should return an array with numbers from 0 to user inputted number"
-Code: const input = 5;
-numArray(input)
-Expected Output: [1, 2, 3, 4, 5]
+Test: "It should return an array with numbers from 0 to user inputted number" <br>
+Code: const input = 5; <br>
+numArray(input) <br>
+Expected Output: [1, 2, 3, 4, 5] <br>
 
 
 ##### Describe: numToString() function
 
-Test: "It should detect the number 1 and return it with "Beep!"
-Code: const input = 1;
-numToString(input)
-Expected Output: "Beep!"
+Test: "It should detect the number 1 and return it with "Beep!" <br>
+Code: const input = 1; <br>
+numToString(input) <br>
+Expected Output: "Beep!" <br>
 
-Test: "It should detect the number 2 and return it with "Boop!"
-Code: const input = 2;
-numToString(input)
-Expected Output: "Boop!"
+Test: "It should detect the number 2 and return it with "Boop!" <br>
+Code: const input = 2; <br>
+numToString(input) <br>
+Expected Output: "Boop!" <br>
 
-Test: "It should detect the number 3 and return it with "Won't you be my neighbor?"
-Code: const input = 3;
-numToString(input)
-Expected Output: "Won't you be my neighbor?"
+Test: "It should detect the number 3 and return it with "Won't you be my neighbor?" <br>
+Code: const input = 3; <br>
+numToString(input) <br>
+Expected Output: "Won't you be my neighbor?" <br>
 
-Test: "It should return the number if the number is not 1,2 or 3"
-Code: const input = 4;
-numToString(input)
-Expected Output: 4
+Test: "It should return the number if the number is not 1,2 or 3" <br>
+Code: const input = 4; <br>
+numToString(input) <br>
+Expected Output: 4 <br>
 
-Test: "If it works with multiple digits if so, It should return the number if the number contains 1,2 or 3"
-Code: const input = 13;
-numToString(input)
-Expected Output: "Won't you be my neighbor?"
+Test: "If it works with multiple digits if so, It should return the number if the number contains 1,2 or 3" <br>
+Code: const input = 13; <br>
+numToString(input) <br>
+Expected Output: "Won't you be my neighbor?" <br>
 
 
 ##### Describe: beMyNeighbor() function
 
-Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.
-Code: const input = 13;
-beMyNeighbor(input) 
-Expected Output: "Won't you be my neighbor
+Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order. <br>
+Code: const input = 13; <br>
+beMyNeighbor(input)  <br>
+Expected Output: "Won't you be my neighbor <br>
 
-Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.
-Code: const input = 21;
-beMyNeighbor(input) 
-Expected Output: "Boop".  
+Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.<br>
+Code: const input = 21; <br>
+beMyNeighbor(input) <br>
+Expected Output: "Boop".  <br>
 
-Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.
-Code: const input = 32;
-beMyNeighbor(input) 
-Expected Output: "Beep!"
+Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order. <br>
+Code: const input = 32; <br>
+beMyNeighbor(input) <br>
+Expected Output: "Beep!" <br>
 
-Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number.Prioritize by number 3,2,1 in order.
-Code: const input = 5;
-beMyNeighbor(input) 
-Expected Output: [0, "Beep!", "Boop", "Won't you be my neighbor?", 4, 5]
+Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number.Prioritize by number 3,2,1 in order. <br>
+Code: const input = 5; <br>
+beMyNeighbor(input)  <br>
+Expected Output: [0, "Beep!", "Boop", "Won't you be my neighbor?", 4, 5] <br>
 
 
 
