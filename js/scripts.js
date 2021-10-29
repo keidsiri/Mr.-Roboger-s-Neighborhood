@@ -16,6 +16,10 @@ function numToString(input) {
   }
 }
 
+// now should loop the array on each ele then return words if it's 3,2,1 otherwise return that number
+
+outcome = new Array;
+
 
 
 
