@@ -34,8 +34,14 @@ $(document).ready(function() {
     event.preventDefault();
     const num = $("#input").val();
     const output = [];
+    beMyNeighbor(num).forEach(function(element) {
+      output.push(element + " ");
+    });
+    $("#output").text(output)
+
+
     
-    
+
   });
 });
 
