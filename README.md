@@ -57,9 +57,22 @@ SOFTWARE.
 _If you have any questions please feel free to [Contact me](mailto:keidsiri@gmail.com)_
 
 ## Tests
-Describe: numArray()
+
+##### Describe: numArray() function
 
 Test: "It should return an array with numbers from 0 to user inputted number"
-Code: numArray(5);
+Code: const input(5);
+numArray(input)
 Expected Output: [1, 2, 3, 4, 5]
+
+
+##### Describe: numToString() function
+
+Test: "It should detect the number 1 and return it with "Beep!"
+Code: numToString(1);
+Expected Output: "Beep!"
+
+
+
+
 
