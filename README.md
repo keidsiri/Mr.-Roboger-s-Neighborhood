@@ -88,6 +88,13 @@ Code: const input = 4;
 numToString(input)
 Expected Output: 4
 
+Test: "If it works with multiple digits if so, It should return the number if the number contains 1,2 or 3"
+Code: const input = 13;
+numToString(input)
+Expected Output: "Won't you be my neighbor?"
+
+
+
 ##### Describe: beMyNeighbor() function
 
 Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces with string otherwise return number. Prioritize by number 3,2,1 in order.

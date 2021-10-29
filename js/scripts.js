@@ -11,6 +11,10 @@ function numArray(num) {
 function beMyNeighbor(num) {
   const array = numArray(num);
   const outcome = [];
+  
+  array.forEach(function(num) {
+    if ( number.includes)
+  });
 
 
 
