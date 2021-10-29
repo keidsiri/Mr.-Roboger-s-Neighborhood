@@ -29,5 +29,13 @@ function beMyNeighbor(num) {
 
 // UI logic
 
-
+$(document).ready(function() {
+  $("#number").submit(function(event) {
+    event.preventDefault();
+    const num = $("#input").val();
+    const output = [];
+    
+    
+  });
+});
 

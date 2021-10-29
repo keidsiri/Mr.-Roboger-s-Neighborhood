@@ -1,0 +1,15 @@
+h1, h3 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color:darkslategray;
+}
+
+
+body {
+  background-color: lightskyblue;
+}
+
+.form-group {
+  font-size: 20px;
+  text-align: justify;
+}
