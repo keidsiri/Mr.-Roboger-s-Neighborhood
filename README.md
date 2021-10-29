@@ -90,10 +90,23 @@ Expected Output: 4
 
 ##### Describe: beMyNeighbor() function
 
-Test: "This function should take an the input number and turn it into range of number in array from 0 to input number then recognize if the inputted contain any number of 1 ,2 or 3 if so, replace to words otherwise return number.
+Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces to words otherwise returns a range of numbers from 0 to the user inputted 
 Code: const input = 13;
 beMyNeighbor(input) 
-Expected Output: "Won't you be my neighbor?"
+Expected Output: "Won't you be my neighbor
+
+Test: "This function should take and input number and recognize if number contains any number from 1 - 3 if so, replaces to words otherwise returns a range of numbers from 0 to the user inputted 
+Code: const input = 21;
+beMyNeighbor(input) 
+Expected Output: "Boop".
+
+Test: "This function should take an the input number and turn it into range of number in array from 0 to input number then recognize if the inputted contain any number of 1 ,2 or 3 if so, replace to words otherwise return number.
+Code: const input = 32;
+beMyNeighbor(input) 
+Expected Output: "Beep!"
+
+
+
 
 
 
