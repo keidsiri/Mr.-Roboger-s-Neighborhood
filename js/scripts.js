@@ -8,28 +8,49 @@ function numArray(num) {
 
 // now should loop the array on each ele then return words if it's 3,2,1 otherwise return that number
 
-
-
 function beMyNeighbor(num) {
   const array = numArray(num);
-  console.log(array)
-  let outcome = new Array;
+  let outcome = [];
 
-  array.forEach(function(element) {
+  for ( let i = 0; i < array.length; i++) {
     if ( array.includes(3)) {
       outcome.push("Won't you be my neighbor?");
+      break;
     } else if ( array.includes(2)) {
       outcome.push("Boop!");
+      break;
     } else if ( array.includes(1)) {
       outcome.push("Beep!");
+      break;
     } else {
-      outcome.push(element);
+      outcome.push(i)
     }
-  });
+  }
   return outcome;
 }
 
-beMyNeighbor(5)
+
+
+// function beMyNeighbor(num) {
+//   const array = numArray(num);
+//   console.log(array)
+//   let outcome = new Array;
+
+//   array.forEach(function(element) {
+//     if ( array.includes(3)) {
+//       outcome.push("Won't you be my neighbor?");
+//     } else if ( array.includes(2)) {
+//       outcome.push("Boop!");
+//     } else if ( array.includes(1)) {
+//       outcome.push("Beep!");
+//     } else {
+//       outcome.push(element);
+//     }
+//   });
+//   return outcome;
+// }
+
+// beMyNeighbor(5)
 
 
 // function numToString(input) {
