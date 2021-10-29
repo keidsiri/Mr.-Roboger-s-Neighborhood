@@ -4,10 +4,16 @@ for ( let i = 0; i <= input; i++) {
   numArray.push(i)
 }
 
-const input = 1;
-numtoString = [];
-if ( input === "1") {
-  numToString.push('Boop!')
+function numToString(input) {
+  if (input === 3) {
+    return "Won't you be my neighbor?"
+  } else if (input === 2) {
+    return "Boop!"
+  } else if (input === 1) {
+    return "Beep!"
+  } else {
+    return input;
+  }
 }
 
 
