@@ -105,6 +105,11 @@ Code: const input = 32;
 beMyNeighbor(input) 
 Expected Output: "Beep!"
 
+Test: "This function should take an the input number and turn it into range of number in array from 0 to input number then recognize if the inputted contain any number of 1 ,2 or 3 if so, replace to words otherwise return number.
+Code: const input = 5;
+beMyNeighbor(input) 
+Expected Output: [0, "Beep!", "Boop", "Won't you be my neighbor?", 4, 5]
+
 
 
 
