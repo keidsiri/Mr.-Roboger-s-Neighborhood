@@ -83,6 +83,11 @@ Code: const input = 3;
 numToString(input)
 Expected Output: "Won't you be my neighbor?"
 
+Test: "It should return the number if the number is not 1,2 or 3"
+Code: const input = 4;
+numToString(input)
+Expected Output: 4
+
 
 
 
