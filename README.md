@@ -19,7 +19,7 @@ first rule should apply unless the second rule does, same with second and third.
 
 ## Set up/installation requirement
 * Code editor required (such as Visual Studio Code) and Github account.
-* Navigate this address https://github.com/keidsiri/Portfolio into your browser or 
+* Navigate this address "https://github.com/keidsiri/Mr.-Roboger-s-Neighborhood" into your browser or 
 <a href="https://github.com/keidsiri/Mr.-Roboger-s-Neighborhood"> click here! </a>
 * Clone this repository to your desktop.
 * Navigate to the top of directory
