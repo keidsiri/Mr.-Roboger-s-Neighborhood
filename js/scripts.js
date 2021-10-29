@@ -37,10 +37,11 @@ $(document).ready(function() {
     beMyNeighbor(num).forEach(function(element) {
       output.push(element + " ");
     });
-    $("#output").text(output)
-
-
-    
+    // $("#output").text(output)
+    $("ul").empty();
+    output.forEach(function(items) {
+      $("ul").append("<li>" + items + "</li>");
+    });
 
   });
 });
