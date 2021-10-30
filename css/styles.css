@@ -1,15 +1,43 @@
-h1, h3 {
+h1 {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  color:darkslategray;
+  font-size: 70px;
+  font-family:'Times New Roman', Times, serif;
+  font: bold;
+  color:pink;
 }
 
+h3 {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font: bold;
+  color:seashell
+
+}
+
+ol {
+  color:darkslategray;
+  background-color:floralwhite;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 body {
-  background-color: lightskyblue;
+  background-image: url("https://www.mcall.com/resizer/QLWO5794IaiJiY5tNIGcpUsMzzo=/800x533/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/BMGRQUNJYBD7VIOK5DL3HX2DRA.jpg");
+  background-size: cover;
+  opacity: 0.80;
+}
+
+.btn btn-info {
+  position: absolute;
 }
 
 .form-group {
   font-size: 20px;
   text-align: justify;
 }
+
+#label {
+  color:honeydew;
+  font-size: 25px;
+}
+

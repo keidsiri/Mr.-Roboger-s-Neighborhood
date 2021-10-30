@@ -32,15 +32,15 @@ function beMyNeighbor(num) {
 $(document).ready(function() {
   $("#number").submit(function(event) {
     event.preventDefault();
-    const num = $("#input").val();
+    const num = $("#input").val().replace(/[.,\/#!$%?\^&\*;:{}=\-_`~()]/g,"");
     const output = [];
     beMyNeighbor(num).forEach(function(element) {
       output.push(element);
     });
     // $("#output").text(output)
-    $("ul").empty();
+    $("ol").empty();
     output.forEach(function(items) {
-      $("ul").append("<li>" + items + "</li>");
+      $("ol").append("<li>" + items + "</li>");
     });
 
   });
